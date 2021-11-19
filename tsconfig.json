@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom", "es2020"],
+    "sourceMap": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "noImplicitThis": true,
+    "incremental": false,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "declarationMap": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "test",
+    "lib",
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ]
+}
